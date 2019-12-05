@@ -8,6 +8,8 @@
 
         <!-- jQuery -->
         <script src="../resources/libraries/jquery-3.4.1/dist/jquery.min.js"></script>
+        <!-- <script src="../resources/libraries/jquery-3.4.1/dist/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
         <!-- Font Awesome -->
         <link rel="stylesheet" type="text/css" href="../resources/libraries/fontawesome-pro-5.11.2-web/css/all.min.css">
 
@@ -26,19 +28,20 @@
             <!-- Scripts -->
         <!-- JMR -->
         <!-- Main -->
+        <script src="../resources/js/sizing.js"></script>
         <!-- Custom -->
         <script>
-            $(function() {
-                $('.header-dummy').height($('.header').outerHeight());
-                $('.landing').height(($(window).height() - $('.header').outerHeight()));
-                $('.landing-content .feature').height(($(window).height() - $('.header').outerHeight()));
-            });
+            // $(function() {
+            //     $('.header-dummy').height($('.header').outerHeight());
+            //     $('.landing').height(($(window).height() - $('.header').outerHeight()));
+            //     $('.landing-content .feature').height(($(window).height() - $('.header').outerHeight()));
+            // });
 
-            $(window).resize(function() {
-                $('.header-dummy').height($('.header').outerHeight());
-                $('.landing').height(($(window).height() - $('.header').outerHeight()));
-                $('.landing-content .feature').height(($(window).height() - $('.header').outerHeight()));
-            });
+            // $(window).resize(function() {
+            //     $('.header-dummy').height($('.header').outerHeight());
+            //     $('.landing').height(($(window).height() - $('.header').outerHeight()));
+            //     $('.landing-content .feature').height(($(window).height() - $('.header').outerHeight()));
+            // });
         </script>
     </head>
 
