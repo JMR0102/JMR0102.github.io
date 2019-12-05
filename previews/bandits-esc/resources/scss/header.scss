@@ -11,7 +11,8 @@
     top: 0;
     z-index: 1000;
     background-color: $bg;
-    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    border-bottom: 5px solid $primary;
+    // box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
 
     .header-container {
         // width: 1100px;
@@ -29,7 +30,7 @@
             .branding {
                 // height: 100%;
                 height: 80%;
-                margin-right: 5vw;
+                // margin-right: 5vw;
                 display: flex;
                 flex-flow: row nowrap;
                 align-items: center;
@@ -47,6 +48,7 @@
 
             .nav {
                 height: 100%;
+                margin: 0 5vw;
                 display: flex;
                 flex-flow: row nowrap;
                 align-items: center;
@@ -69,18 +71,30 @@
                     }
 
                     &.active {
-                        &:before {
-                            content: '';
-                            width: 100%;
-                            height: calc(100% - 5px);
-                            position: absolute;
-                            display: block;
-                            border-bottom: 5px solid $primary;
+                        .nav-link {
+                            position: relative;
+                            // color: $primary;
+                            // border-bottom: 2px solid $primary;
+
+                            &:before {
+                                content: '';
+                                position: absolute;
+                            }
                         }
+
+                        // &:before {
+                        //     content: '';
+                        //     width: 100%;
+                        //     height: calc(100% - 5px);
+                        //     position: absolute;
+                        //     display: block;
+                        //     border-bottom: 5px solid $primary;
+                        // }
                     }
                 }
 
                 &.socials {
+                    margin: 0;
                     margin-left: auto;
                 }
             }

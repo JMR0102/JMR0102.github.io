@@ -35,7 +35,7 @@
 
                 .item-content {
                     padding: 20px;
-                    
+
                     .item-info {
                         display: flex;
                         justify-content: space-between;
@@ -53,12 +53,13 @@
                     }
 
                     .item-more {
-                        margin: 0;
-                        padding: 0;
-                        background-color: transparent;
+                        cursor: pointer;
+                        // margin: 0;
+                        // padding: 0;
+                        // background-color: transparent;
                         color: $primary;
-                        border: none;
-                        outline: none;
+                        // border: none;
+                        // outline: none;
                         font-size: 1rem;
                     }
                 }

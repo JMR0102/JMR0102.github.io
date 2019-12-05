@@ -25,11 +25,35 @@
                 background-size: cover;
 
                 .item-title {
+                    width: 75%;
                     padding: 10%;
                     position: relative;
                     z-index: 1;
                     color: $on-dark;
                     font-size: 2rem;
+                }
+
+                .item-more {
+                    cursor: pointer;
+                    // padding: 10%;
+                    margin: 10%;
+                    position: absolute;
+                    bottom: 0;
+                    z-index: 1;
+                    color: $on-dark;
+                    font-size: 1rem;
+
+                    &:hover,
+                    &:active {
+                        &:before {
+                            content: '';
+                            width: 100%;
+                            height: 100%;
+                            position: absolute;
+                            top: 5px;
+                            border-bottom: 5px solid $primary;
+                        }
+                    }
                 }
 
                 &:before {
@@ -45,6 +69,10 @@
 
                     .item-title {
                         font-size: 3rem;
+                    }
+
+                    .item-more {
+                        font-size: 2rem;
                     }
                 }
             }

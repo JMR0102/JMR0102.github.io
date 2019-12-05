@@ -55,12 +55,8 @@
 }
 
 .main .main-container .main-content .item .item-content .item-more {
-  margin: 0;
-  padding: 0;
-  background-color: transparent;
+  cursor: pointer;
   color: #D70823;
-  border: none;
-  outline: none;
   font-size: 1rem;
 }
 /*# sourceMappingURL=main.css.map */
