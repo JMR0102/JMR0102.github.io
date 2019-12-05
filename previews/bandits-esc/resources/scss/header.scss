@@ -1,0 +1,85 @@
+@import '../utils/breakpoints.scss';
+@import '../utils/variables.scss';
+
+
+
+.header {
+    width: 100vw;
+    max-width: 100%;
+    height: 80px;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+
+    .header-container {
+        // width: 1100px;
+        height: 100%;
+        margin: 0 auto;
+
+        .header-content {
+            height: 100%;
+            padding: 0 20px;
+            // padding: 20px;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+
+            .branding {
+                // height: 100%;
+                height: 80%;
+                margin-right: 5vw;
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+
+                .branding-img {
+                    height: 100%;
+                }
+
+                .branding-title {
+                    margin-left: 10px;
+                    font-size: 2.5rem;
+                    text-transform: uppercase;
+                }
+            }
+
+            .nav {
+                height: 100%;
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+                list-style-type: none;
+
+                .nav-item {
+                    // width: 6vw;
+                    height: 100%;
+                    padding: 0 10px;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .nav-link {
+                        color: $on-surface;
+                        font-size: 1.2rem;
+                        text-decoration: none;
+                        text-transform: capitalize;
+                    }
+
+                    &.active {
+                        &:before {
+                            content: '';
+                            width: 100%;
+                            height: calc(100% - 5px);
+                            position: absolute;
+                            display: block;
+                            border-bottom: 5px solid $primary;
+                        }
+                    }
+                }
+
+                &.socials {
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+}

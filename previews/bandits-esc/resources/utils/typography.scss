@@ -1,0 +1,47 @@
+// Industry - Regular
+/////////////////////
+@font-face {
+    font-family: 'Industry';
+    src: url('../fonts/Industry/Industry-Medium.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+// Industry - Heading
+/////////////////////
+@font-face {
+    font-family: 'Industry';
+    src: url('../fonts/Industry/Industry-Demi.ttf');
+    font-style: normal;
+    font-weight: 700;
+}
+
+// Industry - Title
+/////////////////////
+@font-face {
+    font-family: 'Industry';
+    src: url('../fonts/Industry/Industry-Bold.ttf');
+    font-style: normal;
+    font-weight: 900;
+}
+
+
+
+h1 {
+    font-family: 'Industry';
+    font-style: normal;
+    font-weight: 900;
+}
+
+.nav,
+h2 {
+    font-family: 'Industry';
+    font-style: normal;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Industry';
+    font-style: normal;
+    font-weight: 400;
+}
