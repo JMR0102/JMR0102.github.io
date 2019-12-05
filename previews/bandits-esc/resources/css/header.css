@@ -92,12 +92,7 @@
 }
 
 .header .header-container .header-content .nav .nav-item.active .nav-link {
-  position: relative;
-}
-
-.header .header-container .header-content .nav .nav-item.active .nav-link:before {
-  content: '';
-  position: absolute;
+  color: #D70823;
 }
 
 .header .header-container .header-content .nav.socials {

@@ -72,14 +72,14 @@
 
                     &.active {
                         .nav-link {
-                            position: relative;
-                            // color: $primary;
+                            // position: relative;
+                            color: $primary;
                             // border-bottom: 2px solid $primary;
 
-                            &:before {
-                                content: '';
-                                position: absolute;
-                            }
+                            // &:before {
+                            //     content: '';
+                            //     position: absolute;
+                            // }
                         }
 
                         // &:before {
