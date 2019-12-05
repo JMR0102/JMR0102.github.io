@@ -1,0 +1,53 @@
+@import '../utils/breakpoints.scss';
+@import '../utils/variables.scss';
+
+
+
+.landing {
+    width: 100vw;
+    max-width: 100%;
+    
+    .landing-container {
+        height: 100%;
+        margin: 0 auto;
+
+        .landing-content {
+            height: 100%;
+            display: flex;
+            flex-flow: column wrap;
+
+            .item {
+                width: 30%;
+                height: calc(100% / 3);
+                position: relative;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                .item-title {
+                    padding: 10%;
+                    position: relative;
+                    z-index: 1;
+                    color: $on-dark;
+                    font-size: 2rem;
+                }
+
+                &:before {
+                    content: '';
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    background-color: rgba(0, 0, 0, 0.3);
+                };
+
+                &.feature {
+                    width: 70%;
+
+                    .item-title {
+                        font-size: 3rem;
+                    }
+                }
+            }
+        }
+    }
+}

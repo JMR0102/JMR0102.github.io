@@ -7,6 +7,10 @@
     width: 100vw;
     max-width: 100%;
     height: 80px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: $bg;
     box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
 
     .header-container {
@@ -58,7 +62,7 @@
                     justify-content: center;
 
                     .nav-link {
-                        color: $on-surface;
+                        color: $on-light;
                         font-size: 1.2rem;
                         text-decoration: none;
                         text-transform: capitalize;

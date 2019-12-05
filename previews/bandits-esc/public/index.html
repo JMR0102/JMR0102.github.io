@@ -18,13 +18,25 @@
         <link rel="stylesheet" type="text/css" href="../resources/min/typography.min.css">
         <!-- Main -->
         <link rel="stylesheet" type="text/css" href="../resources/min/header.min.css">
+        <link rel="stylesheet" type="text/css" href="../resources/min/landing.min.css">
+        <!-- Custom -->
 
             <!-- Scripts -->
         <!-- JMR -->
         <!-- Main -->
+        <!-- Custom -->
+        <script>
+            $(function() {
+                $('.header-dummy').height($('.header').outerHeight());
+                $('.landing').height(($(window).height() - $('.header').outerHeight()));
+                $('.feature').height(($(window).height() - $('.header').outerHeight()));
+            });
+        </script>
     </head>
 
     <body>
+        <div class="header-dummy"></div>
+
         <header class="header">
             <div class="header-container">
                 <div class="header-content">
@@ -53,10 +65,21 @@
         <main class="landing">
             <div class="landing-container">
                 <div class="landing-content">
-                    <article class="item">1</article>
-                    <article class="item">2</article>
-                    <article class="item">3</article>
-                    <article class="item">4</article>
+                    <article class="item feature" style="background-image: url('../resources/images/uploads/articles/EH3DOMOU0AAq6wA.png');">
+                        <h2 class="item-title">Bandits Stream Team</h2>
+                    </article>
+
+                    <article class="item" style="background-image: url('../resources/images/uploads/articles/EHoY1hAUYAIWvIh.png');">
+                        <h2 class="item-title">Bandits Stream Team</h2>
+                    </article>
+
+                    <article class="item" style="background-image: url('../resources/images/uploads/articles/EJh85PsVAAA_hzE.jpg');">
+                        <h2 class="item-title">Bandits Stream Team</h2>
+                    </article>
+
+                    <article class="item" style="background-image: url('../resources/images/uploads/articles/EJIyv52U8AAQ00Q.png');">
+                        <h2 class="item-title">Bandits Stream Team</h2>
+                    </article>
                 </div>
             </div>
         </main>
