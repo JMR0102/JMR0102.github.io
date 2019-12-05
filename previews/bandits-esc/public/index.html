@@ -20,6 +20,7 @@
         <link rel="stylesheet" type="text/css" href="../resources/min/header.min.css">
         <link rel="stylesheet" type="text/css" href="../resources/min/landing.min.css">
         <link rel="stylesheet" type="text/css" href="../resources/min/main.min.css">
+        <link rel="stylesheet" type="text/css" href="../resources/min/footer.min.css">
         <!-- Custom -->
 
             <!-- Scripts -->
@@ -30,7 +31,7 @@
             $(function() {
                 $('.header-dummy').height($('.header').outerHeight());
                 $('.landing').height(($(window).height() - $('.header').outerHeight()));
-                $('.feature').height(($(window).height() - $('.header').outerHeight()));
+                $('.landing-content .feature').height(($(window).height() - $('.header').outerHeight()));
             });
         </script>
     </head>
@@ -44,7 +45,7 @@
                 <div class="header-content">
                     <div class="branding">
                         <img class="branding-img" src="../resources/images/core/fake_logo_blue_red_702x702.png">
-                        <h1 class="branding-title">Bandits ESC</h1>
+                        <h1 class="branding-name">Bandits ESC</h1>
                     </div>
 
                     <nav class="nav">
@@ -226,5 +227,71 @@
                 </div>
             </div>
         </main>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-content">
+                    <section class="item feature">
+                        <!-- <img class="item-img" src="../resources/images/core/fake_logo_white_red_702x702.png"> -->
+                        <img class="item-img" src="../resources/images/core/fake_logo_red_white_702x702.png">
+
+                        <div class="item-content">
+                            <h1 class="item-title">Bandits ESC</h1>
+                            <h1 class="item-hashtag">#TakingWhatsOurs</h1>
+
+                            <ul class="item-list">
+                                <li class="list-item"><a class="list-link"><i class="fa-fw fas fa-map-marker-alt"></i>Australia</a></li>
+                                <li class="list-item"><a class="list-link"><i class="fa-fw fas fa-phone"></i>0412 345 678</a></li>
+                                <li class="list-item"><a class="list-link"><i class="fa-fw fas fa-envelope"></i>info@bandits-esc.com</a></li>
+                                <li class="list-item"><a class="list-link"><i class="fa-fw fab fa-discord"></i>discord link</a></li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section class="item">
+                        <h2 class="item-title">teams</h2>
+
+                        <nav class="nav">
+                            <li class="nav-item"><a class="nav-link" href="#team1">Siege</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#team2">Krunker</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#team3">CSGO</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#team4">Stream Team</a></li>
+                        </nav>
+                    </section>
+
+                    <section class="item">
+                        <h2 class="item-title">sponsors</h2>
+
+                        <nav class="nav">
+                            <li class="nav-item"><a class="nav-link" href="#sponsor1">Quantum NRG</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#sponsor2">Magnus Apparel</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#sponsor3">ZQ Racing</a></li>
+                        </nav>
+                    </section>
+
+                    <section class="item">
+                        <h2 class="item-title">socials</h2>
+
+                        <nav class="nav">
+                            <li class="nav-item"><a class="nav-link" href="#twitter">twitter</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#twitch">twitch</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#youtube">youtube</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#discord">discord</a></li>
+                        </nav>
+                    </section>
+
+                    <section class="item">
+                        <h2 class="item-title">more</h2>
+
+                        <nav class="nav">
+                            <li class="nav-item"><a class="nav-link" href="#shop">Shop</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#mediakit">Media Kit</a></li>
+                        </nav>
+                    </section>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
