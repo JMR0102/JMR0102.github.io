@@ -1,0 +1,27 @@
+@media (min-width: 900px) and (max-width: 1199px) {
+  #pageHome.main .main-container {
+    width: unset;
+  }
+  .footer .footer-container .footer-content .item {
+    width: unset;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 15%;
+            flex: 0 0 15%;
+  }
+  .footer .footer-container .footer-content .item .item-title {
+    font-size: 0.6rem;
+  }
+  .footer .footer-container .footer-content .item .nav {
+    font-size: 0.5rem;
+  }
+  .footer .footer-container .footer-content .item.feature .item-img {
+    display: none;
+  }
+  .footer .footer-container .footer-content .item.feature .item-content .item-title {
+    font-size: 1rem;
+  }
+  .footer .footer-container .footer-content .item.feature .item-content .item-list {
+    font-size: 0.5rem;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

@@ -8,10 +8,12 @@
     max-width: 100%;
     
     .landing-container {
+        width: 100%;
         height: 100%;
         margin: 0 auto;
 
         .landing-content {
+            width: 100%;
             height: 100%;
             display: flex;
             flex-flow: column wrap;
@@ -79,3 +81,15 @@
         }
     }
 }
+
+
+
+// @include for-tablet-portrait-only {
+//     .landing {
+//         .landing-container {
+//             .landing-content {
+//                 .item {}
+//             }
+//         }
+//     }
+// }

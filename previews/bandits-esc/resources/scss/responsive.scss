@@ -1,0 +1,65 @@
+@import '../utils/breakpoints.scss';
+@import '../utils/variables.scss';
+
+
+
+@include for-tablet-landscape-only {
+    .header {}
+
+
+
+    #pageHome.main {
+        .main-container {
+            width: unset;
+
+            .main-content {}
+        }
+    }
+
+
+
+    #pageTeams.main {}
+
+
+
+    #pageTeamsSiege.main {}
+
+
+
+    .footer {
+        .footer-container {
+            .footer-content {
+                .item {
+                    // width: 8%;
+                    width: unset;
+                    flex: 0 0 15%;
+
+                    .item-title {
+                        font-size: 0.6rem;
+                    }
+
+                    .nav {
+                        font-size: 0.5rem;
+                    }
+
+                    &.feature {
+                        .item-img {
+                            display: none;
+                        }
+
+                        .item-content {
+                            .item-title {
+                                // font-size: 1.5rem;
+                                font-size: 1rem;
+                            }
+
+                            .item-list {
+                                font-size: 0.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
