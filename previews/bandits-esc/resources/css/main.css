@@ -211,14 +211,17 @@
 #pageTeamsSiege.main .main-container .main-content {
   width: 100%;
   padding-top: 20px;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: wrap;
-      flex-flow: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+          justify-content: unset;
 }
 
 #pageTeamsSiege.main .main-container .main-content .item {
@@ -261,11 +264,87 @@
 }
 
 #pageTeamsSiege.main .main-container .main-content .title {
+  margin-right: auto;
+  display: inline;
+  margin-bottom: 20px;
   font-size: 4rem;
 }
 
+#pageTeamsSiege.main .main-container .main-content .subheading {
+  margin-bottom: 5px;
+  margin-right: auto;
+  padding-bottom: 5px;
+  display: inline;
+  border-bottom: 5px solid #D70823;
+  font-size: 1.5rem;
+}
+
+#pageTeamsSiege.main .main-container .main-content .text {
+  width: 40%;
+}
+
+#pageTeamsSiege.main .main-container .main-content .list-wrapper {
+  margin-top: 50px;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  font-family: 'Ubuntu';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#pageTeamsSiege.main .main-container .main-content .list-wrapper .subheading {
+  font-size: 1.5rem;
+}
+
+#pageTeamsSiege.main .main-container .main-content .list-wrapper .list {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  list-style-type: none;
+  font-family: 'Ubuntu';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#pageTeamsSiege.main .main-container .main-content .list-wrapper .list .list-item {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#pageTeamsSiege.main .main-container .main-content .list-wrapper .list .list-item .img {
+  max-width: 150px;
+  margin-right: 5px;
+  display: none;
+}
+
+#pageTeamsSiege.main .main-container .main-content .list-wrapper .list .list-item:first-child {
+  margin-top: 0;
+}
+
+#pageTeamsSiege.main .main-container .main-content .list-wrapper .list::last-child {
+  margin-right: 0;
+}
+
 #pageTeamsSiege.main .main-container .main-content .character {
-  width: 700px;
+  width: 400px;
   height: 100%;
   position: absolute;
   top: 80;
