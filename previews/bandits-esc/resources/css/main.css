@@ -197,4 +197,80 @@
   left: 0;
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+#pageTeamsSiege.main {
+  width: 100vw;
+  max-width: 100%;
+}
+
+#pageTeamsSiege.main .main-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#pageTeamsSiege.main .main-container .main-content {
+  width: 100%;
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#pageTeamsSiege.main .main-container .main-content .item {
+  margin-top: 50px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
+  background-color: #FFFFFF;
+}
+
+#pageTeamsSiege.main .main-container .main-content .item .item-img {
+  width: 100%;
+  border-bottom: 5px solid #D70823;
+}
+
+#pageTeamsSiege.main .main-container .main-content .item .item-content {
+  padding: 20px;
+}
+
+#pageTeamsSiege.main .main-container .main-content .item .item-content .item-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #6f7e8e;
+}
+
+#pageTeamsSiege.main .main-container .main-content .item .item-content .item-title {
+  margin-top: 5px;
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+}
+
+#pageTeamsSiege.main .main-container .main-content .item .item-content .item-more {
+  cursor: pointer;
+  color: #D70823;
+  font-size: 1rem;
+}
+
+#pageTeamsSiege.main .main-container .main-content .title {
+  font-size: 4rem;
+}
+
+#pageTeamsSiege.main .main-container .main-content .character {
+  width: 700px;
+  height: 100%;
+  position: absolute;
+  top: 80;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 /*# sourceMappingURL=main.css.map */
