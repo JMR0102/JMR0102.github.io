@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../utils/breakpoints.scss"
+    ],
+    "names": [],
+    "file": "breakpoints.min.css"
+}
