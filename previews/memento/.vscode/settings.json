@@ -1,0 +1,21 @@
+{
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/resources/css"
+        },
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/resources/min"
+        }
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "**/plugins/**",
+        "**/utils/**"
+    ],
+    "liveSassCompile.settings.includeItems": [
+        "/resources/utils/typography.scss"
+    ]
+}
