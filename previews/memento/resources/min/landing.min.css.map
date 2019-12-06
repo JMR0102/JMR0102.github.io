@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAKA,AAAA,QAAQ,AAAC,CACL,KAAK,CAAE,KAAK,CACZ,SAAS,CAAE,IAAI,CAKlB",
+    "sources": [
+        "../scss/landing.scss",
+        "../utils/breakpoints.scss",
+        "../utils/variables.scss"
+    ],
+    "names": [],
+    "file": "landing.min.css"
+}

@@ -1,4 +1,9 @@
 body {
   background-color: #070614;
 }
+
+.main {
+  width: 100vw;
+  max-width: 100%;
+}
 /*# sourceMappingURL=main.css.map */

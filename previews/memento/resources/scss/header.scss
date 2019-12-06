@@ -3,6 +3,17 @@
 
 
 
+.header {
+    width: 100vw;
+    max-width: 100%;
+    
+    .header-container {
+        .header-content {}
+    }
+}
+
+
+
 @include for-mobile-only {
     .header {
         width: 100%;
