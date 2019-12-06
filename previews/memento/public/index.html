@@ -26,6 +26,7 @@
             <!-- Scripts -->
         <!-- JMR -->
         <!-- Main -->
+        <script src="../resources/js/nav.js"></script>
         <!-- Custom -->
         <script>
             $(function() {
@@ -36,22 +37,64 @@
     </head>
 
     <body>
+        <nav class="full-nav hidden">
+            <div class="full-nav-container">
+                <div class="full-nav-content"></div>
+            </div>
+        </nav>
+
+
+
         <header class="header">
             <div class="header-container">
                 <div class="header-content">
-                    <i class="fa-2x far fa-shopping-cart"></i>
-                    
-                    <a class="header-btn-link" href="#home">
-                        <img class="header-btn" src="../resources/images/core/400x400-cutout.png">
-                        <div class="header-btn-border"></div>
-                    </a>
+                    <div class="branding">
+                        <!-- <img class="branding-logo" src="../resources/images/core/900x900.jpg"> -->
+                        <img class="branding-logo" src="../resources/images/core/400x400-cutout.png">
+                        <h1 class="branding-name">Memento Esports</h1>
+                        <h1 class="branding-hashtag">#WeAreMemento</h1>
+                    </div>
 
-                    <i class="fa-2x far fa-bars"></i>
+                    <div class="mobile">
+                        <i class="icon fa-fw fa-2x far fa-shopping-cart"></i>
+
+                        <a class="header-btn-link">
+                            <img class="header-btn-img" src="../resources/images/core/400x400-cutout.png">
+                            <div class="header-btn-border"></div>
+                        </a>
+
+                        <i class="nav-menu icon fa-fw fa-2x far fa-bars"></i>
+                    </div>
+
+                    <div class="nav-container">
+                        <nav class="nav main">
+                            <li class="nav-item active"><a class="nav-link" href="#home">home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#news">news</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#teams">teams</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#merch">merch</a></li>
+                        </nav>
+
+                        <nav class="nav sub">
+                            <li class="nav-item"><a class="nav-link" href="#shop">shop</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about">about</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#media">media</a></li>
+                        </nav>
+
+                        <nav class="nav socials">
+                            <li class="nav-item"><a class="nav-link" href="#twitter"><i class="icon fa-fw fab fa-twitter"></i></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#discord"><i class="icon fa-fw fab fa-discord"></i></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#twitch"><i class="icon fa-fw fab fa-twitch"></i></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#youtube"><i class="icon fa-fw fab fa-youtube"></i></a></li>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </header>
 
-        <main class="landing">
+
+        
+        <!-- <main class="landing">
             <div class="landing-container">
                 <div class="landing-content">
                     <article class="item">
@@ -100,7 +143,7 @@
                     </article>
                 </div>
             </div>
-        </main>
+        </main> -->
 
         <main id="pageHome" class="main">
             <div class="main-container">
@@ -115,6 +158,96 @@
                             </div>
 
                             <h1 class="item-title">Welcome: Lancelot!</h1>
+
+                            <a class="item-view" href="#article">Read <i class="far fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="item">
+                        <img class="item-img" src="https://pbs.twimg.com/media/EKwn9o3UEAAT9hf?format=jpg&name=large">
+
+                        <div class="item-content">
+                            <div class="item-details">
+                                <h6 class="item-tag">CC</h6>
+                                <h6 class="item-date">2/12/19</h6>
+                            </div>
+
+                            <h1 class="item-title">Welcome: Precious!</h1>
+
+                            <a class="item-view" href="#article">Read <i class="far fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="item">
+                        <img class="item-img" src="https://pbs.twimg.com/media/EKDRQoBUYAAxYxi?format=jpg&name=large">
+
+                        <div class="item-content">
+                            <div class="item-details">
+                                <h6 class="item-tag">CC</h6>
+                                <h6 class="item-date">23/11/19</h6>
+                            </div>
+
+                            <h1 class="item-title">Welcome: Memento CS:GO!</h1>
+
+                            <a class="item-view" href="#article">Read <i class="far fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="item">
+                        <img class="item-img" src="https://pbs.twimg.com/media/EKwn9o3UEAAT9hf?format=jpg&name=large">
+
+                        <div class="item-content">
+                            <div class="item-details">
+                                <h6 class="item-tag">CC</h6>
+                                <h6 class="item-date">2/12/19</h6>
+                            </div>
+
+                            <h1 class="item-title">Welcome: Precious!</h1>
+
+                            <a class="item-view" href="#article">Read <i class="far fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="item">
+                        <img class="item-img" src="https://pbs.twimg.com/media/EKDRQoBUYAAxYxi?format=jpg&name=large">
+
+                        <div class="item-content">
+                            <div class="item-details">
+                                <h6 class="item-tag">CC</h6>
+                                <h6 class="item-date">23/11/19</h6>
+                            </div>
+
+                            <h1 class="item-title">Welcome: Memento CS:GO!</h1>
+
+                            <a class="item-view" href="#article">Read <i class="far fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="item">
+                        <img class="item-img" src="https://pbs.twimg.com/media/EKwn9o3UEAAT9hf?format=jpg&name=large">
+
+                        <div class="item-content">
+                            <div class="item-details">
+                                <h6 class="item-tag">CC</h6>
+                                <h6 class="item-date">2/12/19</h6>
+                            </div>
+
+                            <h1 class="item-title">Welcome: Precious!</h1>
+
+                            <a class="item-view" href="#article">Read <i class="far fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="item">
+                        <img class="item-img" src="https://pbs.twimg.com/media/EKDRQoBUYAAxYxi?format=jpg&name=large">
+
+                        <div class="item-content">
+                            <div class="item-details">
+                                <h6 class="item-tag">CC</h6>
+                                <h6 class="item-date">23/11/19</h6>
+                            </div>
+
+                            <h1 class="item-title">Welcome: Memento CS:GO!</h1>
 
                             <a class="item-view" href="#article">Read <i class="far fa-arrow-right"></i></a>
                         </div>
