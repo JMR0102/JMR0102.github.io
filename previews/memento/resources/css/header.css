@@ -70,5 +70,9 @@
     display: block;
     background-color: #070614;
   }
+  .spacing {
+    width: 100%;
+    display: block;
+  }
 }
 /*# sourceMappingURL=header.css.map */
