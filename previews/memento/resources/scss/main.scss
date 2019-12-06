@@ -7,6 +7,16 @@ body {
     background-color: $bg;
 }
 
+input,
+button,
+textarea {
+    margin: 0;
+    padding: 0;
+    background-color: unset;
+    border: none;
+    outline: none;
+}
+
 .main {
     width: 100vw;
     max-width: 100%;
