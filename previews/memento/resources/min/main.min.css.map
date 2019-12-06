@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAKA,AAAA,IAAI,AAAC,CACD,gBAAgB,CEgBf,OAAO,CFfX",
+    "sources": [
+        "../scss/main.scss",
+        "../utils/breakpoints.scss",
+        "../utils/variables.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
