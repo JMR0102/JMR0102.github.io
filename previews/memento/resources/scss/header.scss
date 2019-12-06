@@ -1,0 +1,70 @@
+@import '../utils/breakpoints.scss';
+@import '../utils/variables.scss';
+
+
+
+@include for-mobile-only {
+    .header {
+        width: 100%;
+        height: 10vh;
+        position: fixed;
+        bottom: 0;
+        background-color: $header;
+        border-top: 1vh solid $primary;
+
+        .header-container {
+            width: 100%;
+            height: inherit;
+            padding: 0 20px;
+
+            .header-content {
+                // width: 100%;
+                width: 80%;
+                height: inherit;
+                margin: 0 auto;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                i {
+                    color: #FFF;
+                }
+
+                .header-btn-link {
+                    width: 100%;
+                    height: 15vh;
+                    position: absolute;
+                    // left: 0;
+                    bottom: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .header-btn {
+                        height: inherit;
+                        z-index: 1;
+                    }
+
+                    .header-btn-border {
+                        width: 17vh;
+                        height: 17vh;
+                        position: absolute;
+                        background-color: $primary;
+                        border-radius: 100%;
+
+                        &:before {
+                            content: '';
+                            width: 100%;
+                            height: 11vh;
+                            position: absolute;
+                            bottom: 0;
+                            display: block;
+                            background-color: $header;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
