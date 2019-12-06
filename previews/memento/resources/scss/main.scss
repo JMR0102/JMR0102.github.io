@@ -28,4 +28,44 @@ textarea {
 
 
 
-@include for-mobile-only {}
+@include for-mobile-only {
+    .main {
+        .main-container {
+            .main-content {
+                padding: 20px;
+
+                .item {
+                    width: 100%;
+                    margin-top: 20px;
+                    border: 1px solid rgba(50, 50, 50, 1);
+
+                    .item-img {
+                        width: inherit;
+                    }
+
+                    .item-content {
+                        padding: 10px;
+
+                        .item-details {
+                            margin-bottom: 5px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                        }
+
+                        .item-title {}
+
+                        .item-view {
+                            margin-top: 50px;
+                            display: block;
+                        }
+                    }
+
+                    &:first-child {
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+}
