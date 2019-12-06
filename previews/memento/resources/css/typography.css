@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Sinkin Sans';
+  src: url("../fonts/sinkin-sans/SinkinSans-400Regular.otf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Sinkin Sans';
+  src: url("../fonts/sinkin-sans/SinkinSans-400Italic.otf");
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Sinkin Sans';
+  src: url("../fonts/sinkin-sans/SinkinSans-700Bold.otf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Sinkin Sans';
+  src: url("../fonts/sinkin-sans/SinkinSans-700BoldItalic.otf");
+  font-style: italic;
+  font-weight: 700;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-family: 'Sinkin Sans';
+  font-style: normal;
+  font-weight: 700;
+}
+
+h6 {
+  color: #C4C3C9;
+  font-family: 'Sinkin Sans';
+  font-style: normal;
+  font-weight: 400;
+}
+
+p,
+a,
+li,
+label,
+input,
+button,
+textarea {
+  color: #FFFFFF;
+  font-family: 'Sinkin Sans';
+  font-style: normal;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 599px) {
+  h1,
+  .item-view {
+    font-size: 18px;
+  }
+  h6,
+  p,
+  a,
+  li,
+  label,
+  input,
+  button,
+  textarea {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=typography.css.map */
