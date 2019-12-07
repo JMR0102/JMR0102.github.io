@@ -2,12 +2,28 @@
     @media (max-width: 599px) { @content; }
 }
 
-@mixin for-tablet-portrait-up {
+// @mixin for-tablet-portrait-up {
+//     @media (min-width: 600px) { @content; }
+// }
+
+// @mixin for-tablet-portrait-only {
+//     @media (min-width: 600px) and (max-width: 899px) { @content; }
+// }
+
+@mixin for-big-mobile-landscape-up {
     @media (min-width: 600px) { @content; }
 }
 
+@mixin for-big-mobile-landscape-only {
+    @media (min-width: 600px) and (max-width: 767px) { @content; }
+}
+
+@mixin for-tablet-portrait-up {
+    @media (min-width: 768px) { @content; }
+}
+
 @mixin for-tablet-portrait-only {
-    @media (min-width: 600px) and (max-width: 899px) { @content; }
+    @media (min-width: 768px) and (max-width: 899px) { @content; }
 }
 
 @mixin for-tablet-landscape-up {
