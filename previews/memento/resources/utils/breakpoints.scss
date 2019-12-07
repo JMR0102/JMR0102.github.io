@@ -10,11 +10,11 @@
 //     @media (min-width: 600px) and (max-width: 899px) { @content; }
 // }
 
-@mixin for-big-mobile-landscape-up {
+@mixin for-mobile-landscape-up {
     @media (min-width: 600px) { @content; }
 }
 
-@mixin for-big-mobile-landscape-only {
+@mixin for-mobile-landscape-only {
     @media (min-width: 600px) and (max-width: 767px) { @content; }
 }
 
