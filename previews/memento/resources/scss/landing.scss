@@ -18,44 +18,72 @@
 
 @include for-mobile-only {
     .landing {
-        display: none;
-        
         .landing-container {
             .landing-content {
                 padding: 20px;
+                display: flex;
+                align-items: center;
 
-                .item {
+                .mobile-only {
                     width: 100%;
-                    margin-top: 20px;
-                    border: 1px solid rgba(50, 50, 50, 1);
-
-                    .item-img {
-                        width: inherit;
-                    }
-
-                    .item-content {
-                        padding: 10px;
-
-                        .item-details {
-                            margin-bottom: 5px;
-                            display: flex;
-                            align-items: center;
-                            justify-content: space-between;
-                        }
-
-                        .item-title {}
-
-                        .item-view {
-                            margin-top: 50px;
-                            display: block;
-                        }
-                    }
-
-                    &:first-child {
-                        margin-top: 0;
-                    }
+                    // background-image: linear-gradient(to left, $secondary, $primary);
+                    background-image: linear-gradient(to top left, $primary, $primary-variant);
+                    // background-image: radial-gradient(circle at top center, $primary, $primary-variant);
+                    // background-image: radial-gradient(circle at top center, $primary-variant, $primary);
+                    background-clip: text;
+                    // color: $on-dark;
+                    color: transparent;
+                    font-family: 'Permanent Marker';
+                    font-size: 40px;
+                    text-align: center;
                 }
             }
         }
     }
 }
+
+
+
+// @include for-mobile-only {
+//     .landing {
+//         display: none;
+        
+//         .landing-container {
+//             .landing-content {
+//                 padding: 20px;
+
+//                 .item {
+//                     width: 100%;
+//                     margin-top: 20px;
+//                     border: 1px solid rgba(50, 50, 50, 1);
+
+//                     .item-img {
+//                         width: inherit;
+//                     }
+
+//                     .item-content {
+//                         padding: 10px;
+
+//                         .item-details {
+//                             margin-bottom: 5px;
+//                             display: flex;
+//                             align-items: center;
+//                             justify-content: space-between;
+//                         }
+
+//                         .item-title {}
+
+//                         .item-view {
+//                             margin-top: 50px;
+//                             display: block;
+//                         }
+//                     }
+
+//                     &:first-child {
+//                         margin-top: 0;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
