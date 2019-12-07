@@ -15,6 +15,7 @@
         <!-- Reset -->
         <link rel="stylesheet" type="text/css" href="../resources/utils/reset.css">
         <!-- Typography -->
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap">
         <link rel="stylesheet" type="text/css" href="../resources/min/typography.min.css">
         <!-- Main -->
         <link rel="stylesheet" type="text/css" href="../resources/min/header.min.css">
@@ -25,18 +26,29 @@
 
             <!-- Scripts -->
         <!-- JMR -->
+        <script src="../resources/libraries/jmr/jmr-breakpoints.js"></script>
         <!-- Main -->
-        <script src="../resources/js/nav.js"></script>
+        <script src="../resources/js/header.js"></script>
         <!-- Custom -->
         <script>
             $(function() {
-                // $('.spacing').height($('.header-btn-link').height());
-                $('.spacing').height($('.header').outerHeight());
+                // // $('.spacing').height($('.header-btn-link').height());
+                // $('.spacing').height($('.header').outerHeight());
+
+                $('.header-spacing').height($('.header').outerHeight());
+
+                // $('.full-nav').css('margin-top', $('.header').outerHeight());
+                // $('.full-nav').css('padding-top', (parseInt($('.full-nav > .full-nav-container > .full-nav-content').css('padding-top'), 10) + $('.header').outerHeight()));
+                $('.full-nav').css('padding-top', ($('.header').outerHeight()));
             });
         </script>
     </head>
 
     <body>
+        <div class="header-spacing top"></div>
+
+
+
         <nav class="full-nav hidden">
             <div class="full-nav-container">
                 <div class="full-nav-content"></div>
@@ -150,6 +162,16 @@
                 </div>
             </div>
         </main> -->
+
+
+
+        <main class="landing">
+            <div class="landing-container">
+                <div class="landing-content"></div>
+            </div>
+        </main>
+
+
 
         <main id="pageHome" class="main">
             <div class="main-container">
@@ -292,6 +314,8 @@
             </div>
         </main>
 
-        <div class="spacing"></div>
+        <input id="breakpoints" type="hidden">
+
+        <div class="header-spacing bottom"></div>
     </body>
 </html>
