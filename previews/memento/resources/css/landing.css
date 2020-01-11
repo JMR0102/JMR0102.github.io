@@ -7,7 +7,7 @@
   padding: 0 20px;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 559px) {
   .landing .landing-container .landing-content {
     padding: 20px;
     display: -webkit-box;
@@ -25,7 +25,14 @@
     color: transparent;
     font-family: 'Permanent Marker';
     font-size: 40px;
+    letter-spacing: 1px;
     text-align: center;
+  }
+}
+
+@media (min-width: 560px) {
+  .landing .landing-container .landing-content .mobile-only {
+    display: none;
   }
 }
 /*# sourceMappingURL=landing.css.map */

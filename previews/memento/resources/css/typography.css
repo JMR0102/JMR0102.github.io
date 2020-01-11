@@ -40,6 +40,7 @@ h6 {
   font-weight: 400;
 }
 
+.icon:after,
 p,
 a,
 li,
@@ -62,6 +63,7 @@ a {
   .item-view {
     font-size: 18px;
   }
+  .icon:after,
   h6,
   p,
   a,

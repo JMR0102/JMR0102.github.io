@@ -14,6 +14,13 @@ $(window).resize(function() {
 
 function headerInit() {
     $('.header-spacing').height($('.header').outerHeight());
+
+    $('.full-nav').css('padding-top', ($('.header').outerHeight()));
+
+    $('.branding').width((($('.branding-logo').outerWidth() + 10) + $('.branding-name').outerWidth()));
+    // $('.nav-container').width(((($(window).width() - (20 * 2)) - $('.branding').width()) - 20));
+    // $('.nav-container').width(((($(window).width() - (20 * 2)) - $('.branding').width()) - 100));
+    // $('.nav-container').css('display', 'flex');
 };
 
 function navToggle() {
