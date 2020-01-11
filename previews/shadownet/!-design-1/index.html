@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="twitter:widgets:theme" content="dark">
+        
+        <link rel="icon" type="image/png" href="../images/core/snet-logo-x2-light.png">
+        <title>#ASSIMILATE | Shadownet</title>
+        
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" type="text/css" href="../libraries/fontawesome-pro-5.11.2-web/css/all.min.css">
+            <!-- Style -->
+        <!-- Reset -->
+        <link rel="stylesheet" type="text/css" href="../utils/reset.css">
+        <!-- Typography -->
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Russo+One&display=swap"> 
+        <link rel="stylesheet" type="text/css" href="../utils/typography.css">
+        <!-- Main -->
+        <link rel="stylesheet" type="text/css" href="css/header.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/footer.css">
+        <link rel="stylesheet" type="text/css" href="../scss/glitch.css">
+            <!-- Scripts -->
+        <!-- Main -->
+        <script src="js/header.js"></script>
+        <script src="js/auto-hyphen.js"></script>
+        <script src="../js/glitch.js"></script>
+        <script src="../js/links.js"></script>
+        <!-- Custom -->
+        <script>
+            // $(window).on('unload', function() {
+            //     $(window).scrollTop(0);
+            // });
+
+            $(function() {
+                $('.landing-scroll').animate({ top: '50%' }, 500);
+                $('.landing-scroll').animate({ top: 0 }, 500);
+
+                setInterval(function() {
+                    $('.landing-scroll').animate({ top: '50%' }, 500);
+                    $('.landing-scroll').animate({ top: 0 }, 500);
+                }, 2500);
+
+
+
+                $('.landing-scroll-container').click(function() {
+                    $(window).scrollTop($(window).height());
+                });
+
+
+                
+                // $('#pageNews').height($(window).height() - $('.header').height());
+
+
+
+                // $('.shop.page').find('.item').each(function(i, v) {
+                //     $(this).find('.container').width($(this).width());
+                //     alert(i+': '+$(this).width());
+                // });
+
+
+
+                $('.shop.page').find('.item-title').css('bottom', $('.shop.page').find('.item-view').outerHeight());
+            });
+        </script>
+    </head>
+    
+    <body>
+        <header class="header">
+            <div class="header-container">
+                <div class="header-content">
+                    <section class="branding">
+                        <img class="branding-image" src="../images/core/snet-logo-x2-light.png">
+
+                        <h1 class="branding-title">Shadownet</h1>
+                        <h2 class="branding-subtitle"><span class="hashtag">#</span>Assimilate</h2>
+                    </section>
+
+                    <nav class="nav main">
+                        <li class="nav-item"><a class="nav-link same-domain" href="!-design-1/index.html">home</a></li>
+                        <li class="nav-item"><a class="nav-link same-domain" href="!-design-1/news.html">news</a></li>
+                        <li class="nav-item"><a class="nav-link same-domain" href="!-design-1/teams.html">teams</a></li>
+                        <li class="nav-item"><a class="nav-link same-domain" href="!-design-1/shop.html">shop</a></li>
+                    </nav>
+
+                    <nav class="nav socials">
+                        <li class="nav-item" data-target="twitter"><a class="nav-link" data-text="twitter" href="https://www.twitter.com/shadownetgg"><i class="fa-fw fab fa-twitter"></i></a></li>
+                        <li class="nav-item" data-target="facebook"><a class="nav-link" data-text="facebook" href="https://www.facebook.com/shadownetgg"><i class="fa-fw fab fa-facebook"></i></a></li>
+                        <li class="nav-item" data-target="instagram"><a class="nav-link" data-text="instagram" href="https://www.instagram.com/shadownetgg"><i class="fa-fw fab fa-instagram"></i></a></li>
+                        <li class="nav-item" data-target="youtube"><a class="nav-link" data-text="youtube" href="https://www.youtube.com/channel/UCpknLpLjZmXWw4nfLBGFNyw"><i class="fa-fw fab fa-youtube"></i></a></li>
+                        <li class="nav-item" data-target="twitch"><a class="nav-link" data-text="twitch" href="https://www.twitch.tv/shadownetgg"><i class="fa-fw fab fa-twitch"></i></a></li>
+                        <li class="nav-item" data-target="discord"><a class="nav-link" data-text="discord" href="https://discord.gg/xCup8rK"><i class="fa-fw fab fa-discord"></i></a></li>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <header class="landing-header">
+            <div class="landing-header-container">
+                <div class="landing-header-content">
+                    <nav class="nav main">
+                        <li class="nav-item"><a class="nav-link same-domain" href="!-design-1/index.html">home</a></li>
+                        <li class="nav-item"><a class="nav-link same-domain" href="!-design-1/news.html">news</a></li>
+                        <li class="nav-item"><a class="nav-link same-domain" href="!-design-1/teams.html">teams</a></li>
+                        <li class="nav-item"><a class="nav-link same-domain" href="!-design-1/shop.html">shop</a></li>
+                    </nav>
+
+                    <nav class="nav socials">
+                        <li class="nav-item" data-target="twitter"><a class="nav-link" href="https://www.twitter.com/shadownetgg"><i class="fa-fw fab fa-twitter"></i></a></li>
+                        <li class="nav-item" data-target="facebook"><a class="nav-link" href="https://www.facebook.com/shadownetgg"><i class="fa-fw fab fa-facebook"></i></a></li>
+                        <li class="nav-item" data-target="instagram"><a class="nav-link" href="https://www.instagram.com/shadownetgg"><i class="fa-fw fab fa-instagram"></i></a></li>
+                        <li class="nav-item" data-target="youtube"><a class="nav-link" href="https://www.youtube.com/channel/UCpknLpLjZmXWw4nfLBGFNyw"><i class="fa-fw fab fa-youtube"></i></a></li>
+                        <li class="nav-item" data-target="twitch"><a class="nav-link" href="https://www.twitch.tv/shadownetgg"><i class="fa-fw fab fa-twitch"></i></a></li>
+                        <li class="nav-item" data-target="discord"><a class="nav-link" href="https://discord.gg/xCup8rK"><i class="fa-fw fab fa-discord"></i></a></li>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="landing">
+            <div class="landing-container">
+                <div class="landing-content">
+                    <!-- <img class="landing-image" src="../images/core/snet-logo-x3-light.png"> -->
+                    <img class="landing-image" src="../images/core/snet-logo-x3-light-2.png">
+                    
+                    <!-- <nav class="nav main">
+                        <li class="nav-item"><a class="nav-link same-domain" href="!-design-1/index.html">home</a></li>
+                        <li class="nav-item"><a class="nav-link same-domain" href="!-design-1/news.html">news</a></li>
+                        <li class="nav-item"><a class="nav-link same-domain" href="!-design-1/teams.html">teams</a></li>
+                        <li class="nav-item"><a class="nav-link same-domain" href="!-design-1/shop.html">shop</a></li>
+                    </nav>
+
+                    <nav class="nav socials">
+                        <li class="nav-item"><a class="nav-link" href="https://www.twitter.com/shadownetgg"><i class="fa-fw fab fa-twitter"></i>></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/shadownetgg"><i class="fa-fw fab fa-facebook"></i>></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/shadownetgg"><i class="fa-fw fab fa-instagram"></i>></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/channel/UCpknLpLjZmXWw4nfLBGFNyw"><i class="fa-fw fab fa-youtube"></i>></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.twitch.tv/shadownetgg"><i class="fa-fw fab fa-twitch"></i>></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://discord.gg/xCup8rK"><i class="fa-fw fab fa-discord"></i>></a></li>
+                    </nav> -->
+
+                    <h1 class="landing-title glitchable-constant">Welcome Agent</h1>
+                    <h2 class="landing-subtitle glitchable-constant">to the Shadownet</h2>
+
+                    <p class="landing-text">
+                        We are as ancient as time. We are as many as the stars. We have been fighting for you this entire time - you simply never knew.
+                        <br><br>
+                        Our network spreads far and our influence runs deep. The Shadownet was built for times like this, for times when the system worked against us, when those seated in the higher echelons of society would extort us, manipulate us, defeat us. They would expect our people, our communities to enslave ourselves into their system just like another number… another cog.
+                        <br><br>
+                        It is time to join us agent, to breathe life into the Shadownet once again. You are not the only agent to be activated, soon the entire network shall awaken from their simulations. Soon they will rejoin us on our mission to level the playing field. Our communities, our people, our streets and our scenes. Ours.
+                        <br><br>
+                        Together we will rebuild the network, together we will strike from the shadows.
+                        <br><br>
+                        Agent, it is time to assimilate.
+                    </p>
+
+                    <div class="landing-scroll-container"><i class="landing-scroll far fa-chevron-double-down"></i></div>
+                </div>
+            </div>
+        </main>
+
+        <!-- <header class="header">
+            <div class="header-container">
+                <div class="header-content">
+                    <section class="branding">
+                        <img class="branding-image" src="../images/core/snet-logo-x2-light.png">
+
+                        <h1 class="branding-title">Shadownet</h1>
+                        <h2 class="branding-subtitle"><span class="hashtag">#</span>Assimilate</h2>
+                    </section>
+
+                    <nav class="nav main">
+                        <li class="nav-item"><a class="nav-link same-domain" href="!-design-1/index.html">home</a></li>
+                        <li class="nav-item"><a class="nav-link same-domain" href="!-design-1/news.html">news</a></li>
+                        <li class="nav-item"><a class="nav-link same-domain" href="!-design-1/teams.html">teams</a></li>
+                        <li class="nav-item"><a class="nav-link same-domain" href="!-design-1/shop.html">shop</a></li>
+                    </nav>
+
+                    <nav class="nav socials">
+                        <li class="nav-item"><a class="nav-link" href="https://www.twitter.com/shadownetgg"><i class="fa-fw fab fa-twitter"></i>></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/shadownetgg"><i class="fa-fw fab fa-facebook"></i>></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/shadownetgg"><i class="fa-fw fab fa-instagram"></i>></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/channel/UCpknLpLjZmXWw4nfLBGFNyw"><i class="fa-fw fab fa-youtube"></i>></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.twitch.tv/shadownetgg"><i class="fa-fw fab fa-twitch"></i>></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://discord.gg/xCup8rK"><i class="fa-fw fab fa-discord"></i>></a></li>
+                    </nav>
+                </div>
+            </div>
+        </header> -->
+
+        <!-- <div class="placeholder"></div> -->
+
+        <!-- <div style="width: 100%; height: 80px;"></div> -->
+
+        <main id="pageNews" class="page">
+            <div class="page-container">
+                <div class="page-content">
+                    <div class="row">
+                        <!-- <div class="col">
+                            <article class="article" style="background-image: url('../images/articles/theholyemperor.png');">
+                                <div class="article-overlay"></div>
+                                <h1 class="article-title">A B C d e f g h i j k l m n o p q r s t u v w x y z</h1>
+                                <button class="article-view"><i class="far fa-chevron-right"></i></button>
+                            </article>
+                        </div> -->
+
+                        <div class="col">
+                            <article class="article" style="background-image: url('../images/articles/theholyemperor.png');">
+                                <div class="article-overlay"></div>
+                                <!-- <h1 class="article-title">A b C TheHolyEmperor finishes 2nd place!</h1> -->
+                                <h1 class="article-title">TheHolyEmperor finishes 2nd place!</h1>
+                                <!-- <h1 class="article-title">TheHoly&shy;Emperor finishes 2nd place!</h1> -->
+                                <button class="article-view"><i class="far fa-chevron-right"></i></button>
+                            </article>
+                        </div>
+
+                        <div class="col">
+                            <article class="article" style="background-image: url('../images/articles/welcome-rainbow-six-siege.png');">
+                                <div class="article-overlay"></div>
+                                <h1 class="article-title">We acquire ex-BeZerkers roster</h1>
+                                <button class="article-view"><i class="far fa-chevron-right"></i></button>
+                            </article>
+                        </div>
+
+                        <div class="col"></div>
+
+                        <div class="col"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <article class="article">
+                                <div class="article-overlay"></div>
+                                <h1 class="article-title">Shadownet acquires BeZerkers roster</h1>
+                                <button class="article-view"><i class="fa-fw far fa-chevron-right"></i></button>
+                            </article>
+                        </div>
+
+                        <div class="col">
+                            <article class="article">
+                                <div class="article-overlay"></div>
+                                <h1 class="article-title">ABCDEFGHIJKLMNPQRSTUVWXYZ</h1>
+                                <button class="article-view"><i class="fa-fw far fa-chevron-right"></i></button>
+                            </article>
+                        </div>
+
+                        <div class="col"></div>
+
+                        <div class="col"></div>
+                    </div>
+
+                    <button class="articles-btn">More</button>
+                </div>
+            </div>
+        </main>
+
+        <main class="page teams">
+            <div class="page-container">
+                <div class="page-content">
+                    <section class="banner row-container">
+                        <div class="banner-overlay"></div>
+                        
+                        <h1 class="banner-title">Meet Our Agents</h1>
+
+                        <!-- <div class="container">
+                            <h1 class="banner-text left">Players</h1>
+                            <h1 class="banner-text right">Teams</h1>
+                            <h1 class="banner-title left">8</h1>
+                            <h1 class="banner-title right">2</h1>
+                        </div> -->
+
+                        <div class="container">
+                            <h1 class="banner-text left">Teams</h1>
+                            <!-- <h1 class="banner-text left">Games</h1> -->
+                            <!-- <h1 class="banner-text right">Players</h1> -->
+                            <h1 class="banner-text right">Agents</h1>
+                            <h1 class="banner-title left">2</h1>
+                            <h1 class="banner-title right">8</h1>
+                        </div>
+
+                        <!-- <div class="row">
+                            <div class="col">
+                                <h1 class="banner-text">Players</h1>
+                                <h1 class="banner-title">7</h1>
+                            </div>
+                            <div class="col">
+                                <h1 class="banner-text">Players</h1>
+                                <h1 class="banner-title">7</h1>
+                            </div>
+                        </div> -->
+                    </section>
+
+                    <!-- <section class="item" style="background-image: url('../images/teams/siege.png');"> -->
+                    <section class="item" style="background-image: url('https://images5.alphacoders.com/700/700496.jpg');">
+                        <!-- <div class="item-overlay"></div>
+                        <h1 class="item-title">Rainbow Six: Siege</h1>
+                        <ul class="item-list">
+                            <li class="list-title">Players</li>
+                            <li class="list-item">Aegis</li>
+                            <li class="list-item">Doom</li>
+                            <li class="list-item">iWish</li>
+                            <li class="list-item">Snyper</li>
+                            <li class="list-item">Tempest</li>
+                        </ul>
+                        <button class="item-view">View</button> -->
+
+                        <div class="item-overlay"></div>
+
+                        <div class="container">
+                            <h1 class="item-title">Rainbow Six: Siege</h1>
+
+                            <h3 class="list-title">Players</h3>
+                            <ul class="item-list">
+                                <!-- <li class="list-title">Players</li> -->
+                                <li class="list-item">Aegis</li>
+                                <li class="list-item">Doom</li>
+                                <li class="list-item">iWish</li>
+                                <li class="list-item">Snyper</li>
+                                <li class="list-item">Tempest</li>
+                            </ul>
+                        </div>
+                        <button class="item-view btn">View</button>
+                    </section>
+
+                    <section class="item" style="background-image: url('http://getwallpapers.com/wallpaper/full/7/b/5/1036373-gorgerous-tekken-7-wallpapers-1920x1080-retina.jpg');">
+                        <div class="item-overlay"></div>
+
+                        <div class="container">
+                            <h1 class="item-title">Tekken 7</h1>
+
+                            <h3 class="list-title">Players</h3>
+                            <ul class="item-list">
+                                <li class="list-item">TheHolyEmperor</li>
+                                <li class="list-item">GhostChips</li>
+                            </ul>
+                        </div>
+                        
+                        <button class="item-view btn">View</button>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <main class="page shop">
+            <div class="page-container">
+                <div class="page-content">
+                    <div class="row">
+                        <!-- <article class="item" style="background-image: url('https://cdn11.bigcommerce.com/s-wjj4g8e9dr/images/stencil/500x659/products/324/812/5918B23A-AB53-450C-B92D-97323A75C526__44105.1577183272.jpg?c=1&imbypass=on');"> -->
+                        <article class="item">
+                            <img class="item-image" src="https://cdn11.bigcommerce.com/s-wjj4g8e9dr/images/stencil/500x659/products/324/812/5918B23A-AB53-450C-B92D-97323A75C526__44105.1577183272.jpg?c=1&imbypass=on">
+
+                            <div class="container">
+                                <h3 class="item-text">Shadownet Jersey 2019</h3>
+                                <h3 class="item-title">$70.00</h3>
+
+                                <a class="item-view">Buy</a>
+                            </div>
+                        </article>
+
+                        <article class="item">
+                            <img class="item-image" src="https://cdn11.bigcommerce.com/s-wjj4g8e9dr/images/stencil/500x659/products/324/812/5918B23A-AB53-450C-B92D-97323A75C526__44105.1577183272.jpg?c=1&imbypass=on">
+
+                            <div class="container">
+                                <h3 class="item-text">Shadownet Jersey</h3>
+                                <h3 class="item-title">$70.00</h3>
+
+                                <a class="item-view">Buy</a>
+                            </div>
+                        </article>
+
+                        <article class="item">
+                            <img class="item-image" src="https://cdn11.bigcommerce.com/s-wjj4g8e9dr/images/stencil/500x659/products/324/812/5918B23A-AB53-450C-B92D-97323A75C526__44105.1577183272.jpg?c=1&imbypass=on">
+
+                            <div class="container">
+                                <h3 class="item-text">Shadownet Jersey</h3>
+                                <h3 class="item-title">$70.00</h3>
+
+                                <a class="item-view">Buy</a>
+                            </div>
+                        </article>
+
+                        <article class="item">
+                            <img class="item-image" src="https://cdn11.bigcommerce.com/s-wjj4g8e9dr/images/stencil/500x659/products/324/812/5918B23A-AB53-450C-B92D-97323A75C526__44105.1577183272.jpg?c=1&imbypass=on">
+
+                            <div class="container">
+                                <h3 class="item-text">Shadownet Jersey</h3>
+                                <h3 class="item-title">$70.00</h3>
+
+                                <a class="item-view">Buy</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="row">
+                        <!-- <article class="item" style="background-image: url('https://cdn11.bigcommerce.com/s-wjj4g8e9dr/images/stencil/500x659/products/324/812/5918B23A-AB53-450C-B92D-97323A75C526__44105.1577183272.jpg?c=1&imbypass=on');"> -->
+                        <article class="item">
+                            <img class="item-image" src="https://cdn11.bigcommerce.com/s-wjj4g8e9dr/images/stencil/500x659/products/324/812/5918B23A-AB53-450C-B92D-97323A75C526__44105.1577183272.jpg?c=1&imbypass=on">
+
+                            <div class="container">
+                                <h3 class="item-text">Shadownet Jersey 2019</h3>
+                                <h3 class="item-title">$70.00</h3>
+
+                                <a class="item-view">Buy</a>
+                            </div>
+                        </article>
+
+                        <article class="item">
+                            <img class="item-image" src="https://cdn11.bigcommerce.com/s-wjj4g8e9dr/images/stencil/500x659/products/324/812/5918B23A-AB53-450C-B92D-97323A75C526__44105.1577183272.jpg?c=1&imbypass=on">
+
+                            <div class="container">
+                                <h3 class="item-text">Shadownet Jersey</h3>
+                                <h3 class="item-title">$70.00</h3>
+
+                                <a class="item-view">Buy</a>
+                            </div>
+                        </article>
+
+                        <article class="item">
+                            <img class="item-image" src="https://cdn11.bigcommerce.com/s-wjj4g8e9dr/images/stencil/500x659/products/324/812/5918B23A-AB53-450C-B92D-97323A75C526__44105.1577183272.jpg?c=1&imbypass=on">
+
+                            <div class="container">
+                                <h3 class="item-text">Shadownet Jersey</h3>
+                                <h3 class="item-title">$70.00</h3>
+
+                                <a class="item-view">Buy</a>
+                            </div>
+                        </article>
+
+                        <article class="item">
+                            <img class="item-image" src="https://cdn11.bigcommerce.com/s-wjj4g8e9dr/images/stencil/500x659/products/324/812/5918B23A-AB53-450C-B92D-97323A75C526__44105.1577183272.jpg?c=1&imbypass=on">
+
+                            <div class="container">
+                                <h3 class="item-text">Shadownet Jersey</h3>
+                                <h3 class="item-title">$70.00</h3>
+
+                                <a class="item-view">Buy</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <button class="btn">View Full Store</button>
+                </div>
+            </div>
+        </main>
+
+        <main class="page twitter">
+            <div class="page-container">
+                <div class="page-content">
+                    <aside class="advertisement left">
+                        <a href="https://magnusapparel.com/shadownet-advanced-jersey/">
+                            <img class="advertisement-image" src="../images/advertisements/2019-pro-jersey.png">
+                        </a>
+                    </aside>
+
+                    <section class="twitter-feed">
+                        <!-- <a class="twitter-follow-button" href="https://twitter.com/TwitterDev">Follow @TwitterDev</a> -->
+                        <a class="twitter-timeline" data-chrome="noheader noborders transparent" href="https://twitter.com/ShadownetGG" data-limit="10"></a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </section>
+
+                    <aside class="advertisement right">
+                        <a href="https://magnusapparel.com/shadownet-advanced-jersey/">
+                            <img class="advertisement-image" src="../images/advertisements/2019-pro-jersey.png">
+                        </a>
+                    </aside>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-content">
+                    <section class="footer-item">
+                        <img class="item-image" src="../images/core/snet-logo-x3-light-2.png">
+
+                        <ul class="item-list">
+                            <li class="list-item">
+                                <i class="item-icon fa-fw fal fa-map-marker-alt"></i>
+                                <a class="item-link" href="">Auckland, New Zealand</a>
+                            </li>
+                            <li class="list-item">
+                                <i class="item-icon fa-fw fal fa-envelope"></i>
+                                <a class="item-link" href="">master@shadownet.gg</a>
+                            </li>
+                            <li class="list-item">
+                                <i class="item-icon fa-fw fal fa-phone"></i>
+                                <a class="item-link" href="">0412 345 678</a>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="footer-item">
+                        <h3 class="list-title">Shadownet</h3>
+
+                        <ul class="item-list">
+                            <li class="list-item indent"><a class="item-link" href="#home">Home</a></li>
+                            <li class="list-item indent"><a class="item-link" href="#teams">Teams</a></li>
+                            <li class="list-item indent"><a class="item-link" href="#shop">Shop</a></li>
+                            <li class="list-item indent"><a class="item-link" href="#events">Events</a></li>
+                            <li class="list-item indent"><a class="item-link" href="#contact">Contact</a></li>
+                            <li class="list-item indent"><a class="item-link" href="#media">Media</a></li>
+                        </ul>
+                    </section>
+
+                    <section class="footer-item">
+                        <h3 class="list-title">Follow us</h3>
+
+                        <ul class="item-list">
+                            <li class="list-item"><i class="item-icon fa-fw fab fa-twitter"></i><a class="item-link">Twitter</a></li>
+                            <li class="list-item"><i class="item-icon fa-fw fab fa-facebook"></i><a class="item-link">Facebook</a></li>
+                            <li class="list-item"><i class="item-icon fa-fw fab fa-instagram"></i><a class="item-link">Instagram</a></li>
+                            <li class="list-item"><i class="item-icon fa-fw fab fa-youtube"></i><a class="item-link">YouTube</a></li>
+                            <li class="list-item"><i class="item-icon fa-fw fab fa-twitch"></i><a class="item-link">Twitch</a></li>
+                            <li class="list-item"><i class="item-icon fa-fw fab fa-discord"></i><a class="item-link">Discord</a></li>
+                        </ul>
+                    </section>
+
+                    <section class="footer-item">
+                        <h3 class="list-title">Sponsors</h3>
+
+                        <!-- <ul class="item-list">
+                            <li class="list-item"></li>
+                        </ul> -->
+
+                        <div class="container">
+                            <a class="item-link" href="#playtech"><img class="item-image" src="../images/sponsors/playtech.png"></a>
+                            <a class="item-link" href="#playtech"><img class="item-image" src="../images/sponsors/hado-nz.png"></a>
+                            <a class="item-link" href="#playtech"><img class="item-image" src="../images/sponsors/vagabond.png"></a>
+                            <a class="item-link" href="#playtech"><img class="item-image" src="../images/sponsors/playtech.png"></a>
+                            <a class="item-link" href="#playtech"><img class="item-image" src="../images/sponsors/hado-nz.png"></a>
+                            <a class="item-link" href="#playtech"><img class="item-image" src="../images/sponsors/vagabond.png"></a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

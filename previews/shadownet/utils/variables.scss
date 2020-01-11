@@ -1,0 +1,43 @@
+$primary: #32174D;
+$primary-variant: #57416D;
+$secondary: #32CD32;
+$secondary-variant: #29a829;
+$bg: #100E10;
+// $surface: #100E10;
+$surface: #171717;
+$light: #FFF;
+$dark: #000;
+
+
+
+@mixin small {
+    @media (max-width: 639px) { @content; }
+}
+
+@mixin small-up {
+    @media (min-width: 0px) { @content; }
+}
+
+@mixin med {
+    @media (min-width: 640px) and (max-width: 1023px) { @content; }
+}
+
+@mixin med-up {
+    @media (min-width: 640px) { @content; }
+}
+
+@mixin large {
+    @media (min-width: 1024px) and (max-width: 1199px) { @content; }
+}
+
+@mixin large-up {
+    @media (min-width: 1024px) { @content; }
+}
+
+@mixin huge {
+    @media (min-width: 1200px) { @content; }
+}
+
+@mixin huge-up {
+    @media (min-width: 1200px) { @content; }
+}

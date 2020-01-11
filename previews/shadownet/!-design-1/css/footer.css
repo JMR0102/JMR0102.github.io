@@ -1,0 +1,166 @@
+.footer {
+  width: 100vw;
+  max-width: 100%;
+  background-color: #100E10;
+  border-top: 2px solid #32174D;
+}
+
+.footer .footer-container .footer-content {
+  padding: 20px;
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer-container .footer-content .footer-item {
+  width: calc(25% - 37.5px);
+  min-height: 100px;
+  margin-left: 50px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.footer .footer-container .footer-content .footer-item:first-child {
+  margin-left: 0;
+}
+
+.footer .footer-container .footer-content .footer-item .item-image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.footer .footer-container .footer-content .footer-item .item-title {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.footer .footer-container .footer-content .footer-item .list-title {
+  margin-bottom: 2px;
+  padding-bottom: 2px;
+  position: relative;
+  display: inline-block;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  z-index: 1;
+  font-size: 1.8rem;
+}
+
+.footer .footer-container .footer-content .footer-item .item-list {
+  position: relative;
+  z-index: 1;
+  font-size: 1.2rem;
+}
+
+.footer .footer-container .footer-content .footer-item .item-list .list-item {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer-container .footer-content .footer-item .item-list .list-item:first-child {
+  margin-top: 0;
+}
+
+.footer .footer-container .footer-content .footer-item .item-list .list-item.indent .item-link {
+  text-decoration: none;
+}
+
+.footer .footer-container .footer-content .footer-item .item-list .list-item.indent:before {
+  content: '>';
+  margin-right: 5px;
+  color: #32CD32;
+}
+
+.footer .footer-container .footer-content .footer-item .item-list .list-item .item-icon,
+.footer .footer-container .footer-content .footer-item .item-list .list-item .item-link {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.footer .footer-container .footer-content .footer-item .item-list .list-item .item-icon {
+  margin-right: 5px;
+  color: #b4b4b4;
+}
+
+.footer .footer-container .footer-content .footer-item .item-list .list-item .item-link {
+  color: #b4b4b4;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: underline;
+}
+
+.footer .footer-container .footer-content .footer-item .item-list .list-item:hover .item-icon, .footer .footer-container .footer-content .footer-item .item-list .list-item:active .item-icon {
+  color: #32CD32;
+}
+
+.footer .footer-container .footer-content .footer-item .item-list .list-item:hover .item-link, .footer .footer-container .footer-content .footer-item .item-list .list-item:active .item-link {
+  color: #FFF;
+  -webkit-text-decoration-color: #32CD32;
+          text-decoration-color: #32CD32;
+}
+
+.footer .footer-container .footer-content .footer-item .item-view {
+  margin: 0;
+  padding: 10px 20px;
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #100E10;
+  color: #FFF;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+}
+
+.footer .footer-container .footer-content .footer-item .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(20%, 100%))[3];
+      grid-template-columns: repeat(3, minmax(20%, 100%));
+  gap: 10px;
+}
+
+.footer .footer-container .footer-content .footer-item .container .item-title {
+  margin-bottom: 10px;
+}
+
+.footer .footer-container .footer-content .footer-item .container .item-link {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 2px solid #b4b4b4;
+}
+
+.footer .footer-container .footer-content .footer-item .container .item-link .item-image {
+  width: 60px;
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=footer.css.map */

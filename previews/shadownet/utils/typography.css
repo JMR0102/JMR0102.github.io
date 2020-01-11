@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Frostbite';
+  src: url("../fonts/FROSTBITE-Narrow.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+a,
+h1,
+h2,
+button {
+  color: #FFF;
+  font-family: 'Frostbite';
+  font-style: normal;
+  font-weight: 400;
+}
+
+p,
+li,
+h3 {
+  color: #FFF;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hyphen {
+  color: #FFF;
+  font-family: 'Russo One', sans-serif;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hashtag {
+  margin-right: 2px;
+  color: #FFF;
+  font-family: 'Russo One', sans-serif;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: 400;
+}
+/*# sourceMappingURL=typography.css.map */

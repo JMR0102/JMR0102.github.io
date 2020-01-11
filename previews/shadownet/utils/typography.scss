@@ -1,0 +1,76 @@
+@import '../utils/variables.scss';
+
+
+
+@font-face {
+    font-family: 'Frostbite';
+    src: url('../fonts/FROSTBITE-Narrow.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+// a,
+// p,
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
+// label,
+// input,
+// select,
+// button {
+//     color: $light;
+//     font-family: 'Frostbite';
+//     font-style: normal;
+//     font-weight: 400;
+// }
+
+
+
+// Frostbite
+////////////
+a,
+h1,
+h2,
+button {
+    color: $light;
+    font-family: 'Frostbite';
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+// Courier
+//////////
+p,
+li,
+h3 {
+    color: $light;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+.hyphen {
+    color: $light;
+    font-family: 'Russo One', sans-serif;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.hashtag {
+    margin-right: 2px;
+    color: $light;
+    font-family: 'Russo One', sans-serif;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: 400;
+}
